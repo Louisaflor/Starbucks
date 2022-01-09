@@ -1,3 +1,16 @@
 body {
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+#header {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#top {
+  width: 100%;
+}
+
+#findStore {
+  float: right;
+}
