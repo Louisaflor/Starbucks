@@ -1,0 +1,73 @@
+/* CSS styles */
+
+body {
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+#header {
+  border: solid black;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#logoPic {
+  padding: 20px;
+}
+
+#nav {
+  -webkit-text-size-adjust: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+#nav li {
+  float: left;
+  margin-left: 0px;
+}
+
+#nav a {
+  color: black;
+  display: block;
+  width: 80px;
+  text-align: center;
+  padding: 14px 16px;
+  padding: 4px;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  color: #008248;
+}
+
+#top {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+#findStore {
+  border: black solid;
+  position: relative;
+  float: right;
+  padding-right: 5px;
+}
+
+#findStore a {
+  margin: 0px 40px 0px 0px;
+  padding: 0px 8px 0px 0px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #000000de;
+}
+
+.buttons {
+  position: relative;
+  left: 20px;
+  font-size: 14px;
+  margin: 0px 16px 0px 0px;
+  padding: 7px 16px;
+  border-radius: 50px;
+}
