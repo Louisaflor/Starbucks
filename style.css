@@ -10,6 +10,10 @@ body {
   flex-wrap: nowrap;
 }
 
+#top {
+  position: relative;
+}
+
 #logoPic {
   padding: 20px;
 }
@@ -20,7 +24,6 @@ body {
   margin: 0;
   padding: 5px;
   overflow: hidden;
-  position: relative;
 }
 
 #nav li {
@@ -50,7 +53,7 @@ body {
 
 #findStore {
   border: black solid;
-  position: relative;
+  position: absolute;
   float: right;
   padding-right: 5px;
 }
