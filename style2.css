@@ -19,14 +19,17 @@ body {
 
 #top {
   margin-top: 0px;
+  width: 90%;
   display: flex;
   flex-wrap: nowrap;
-  position: relative;
 }
 
 #findStore {
   float: right;
   position: relative;
+  padding-right: 0px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 #findStore a {
