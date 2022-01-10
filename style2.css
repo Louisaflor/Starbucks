@@ -5,19 +5,28 @@ body {
 #header {
   display: flex;
   flex-wrap: nowrap;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
+  position: -webkit-sticky;
   position: sticky;
+  top: 0;
+  background-color: white;
+  width: 100%;
 }
 
 #top {
-  width: 100%;
+  width: 90%;
 }
 
 #findStore {
   float: right;
   position: relative;
-  padding-bottom: 50px;
+  padding-right: 0px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 #findStore a {
@@ -50,4 +59,8 @@ body {
 
 #nav a:hover {
   color: #006241;
+}
+
+#body {
+  padding-top: 250px;
 }
