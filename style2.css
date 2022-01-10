@@ -18,15 +18,15 @@ body {
 }
 
 #top {
-  width: 90%;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
 }
 
 #findStore {
   float: right;
   position: relative;
-  padding-right: 0px;
-  display: flex;
-  flex-wrap: nowrap;
 }
 
 #findStore a {
@@ -35,12 +35,22 @@ body {
   color: #000000de;
 }
 
+#store {
+  padding: 20px;
+}
+
 #nav {
   list-style: none;
   overflow: hidden; /* i dont really know why we use this*/
   margin: 0px;
   padding: 0px;
+  padding-top: 15px;
   top: 0;
+}
+
+.buttons {
+  padding: 10px;
+  margin: 10px;
 }
 
 #nav li {
