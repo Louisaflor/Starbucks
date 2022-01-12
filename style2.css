@@ -1,14 +1,15 @@
 body {
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0px;
 }
+/* Navigation Bar */
 
 #header {
-  border: black solid;
   display: flex;
   flex-wrap: nowrap;
   margin-top: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 5px;
   padding-left: 40px;
   padding-right: 40px;
   position: -webkit-sticky;
@@ -17,6 +18,8 @@ body {
   background-color: white;
   width: 100%;
 }
+
+/* Right side of Nav Bar*/
 
 #top {
   margin-top: 0px;
@@ -43,10 +46,6 @@ body {
   color: #000000de;
 }
 
-/* #store {
-  padding: 20px;
-} */
-
 #navigation {
   width: 800px;
 }
@@ -61,17 +60,39 @@ body {
 }
 
 .buttons {
-  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#butt2 {
+  background-color: black;
+  color: white;
+}
+
+#store a {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+/* Left side of Nav Bar*/
+
+#logoPic {
+  padding-right: 20px;
 }
 
 #nav li {
   float: left;
   padding-left: 15px;
-  font-size: 0.9rem;
+  font-size: 13px;
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
 }
 
 #nav a {
@@ -90,4 +111,23 @@ body {
 
 #body {
   padding-top: 250px;
+}
+
+/* bottom of nav Bar, header*/
+
+#fixed-Header {
+  margin: 0px;
+  width: 100%;
+  background-color: #1e3932;
+  color: white;
+  height: 50px;
+}
+
+#fixed-Header p {
+  font-size: 13px;
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  display: flex;
 }
