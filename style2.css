@@ -117,8 +117,7 @@
 /* bottom of nav Bar, header*/
 
 #fixed-Header {
-  position: sticky;
-  position: -webkit-sticky;
+  position: fixed;
   margin: 0px;
   width: 100%;
   background-color: #1e3932;
@@ -159,9 +158,32 @@
   padding-left: 80px;
   letter-spacing: 0.02em;
   font-weight: 460;
-  width: 350px;
+  width: 350px; 
   text-transform: uppercase;
 }
+
+#hero-Image button {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  background-color: #01754a;
+  color: white;
+  width: 100px;
+  margin-top: 35px;
+  margin-left: 80px;
+  border: #01754a;
+}
+
+
+#hero-Image p {
+  width: 400px;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+
 
 
 
