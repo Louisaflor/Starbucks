@@ -140,11 +140,16 @@
 
 #hero-Image {
     background: url("./images/xl-hero-desktop_star.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
+   
+    background-size:  cover;
+    
     height: 800px;
     background-color: #d4e8e1;
+   
+  background-position: right 90% bottom 0%;
+    
+    
+
     
 }
 
@@ -153,9 +158,7 @@
 
 /* Content Inside the star */
 
-#freeCoffee {
-  width: 100px;
-}
+
 #hero-Image h1 {
   margin-top: 50px;
   padding-top: 100px;
