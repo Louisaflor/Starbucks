@@ -10,7 +10,7 @@
   flex-wrap: nowrap;
   margin-top: 0px;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 26px;
   padding-left: 40px;
   padding-right: 40px;
   top: 0;
@@ -140,17 +140,12 @@
 
 #hero-Image {
     background: url("./images/xl-hero-desktop_star.webp");
-   
-    background-size:  cover;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 800px;
     background-color: #d4e8e1;
-   
   background-position: right 90% bottom 0%;
-    
-    
-
-    
+   
 }
 
 /* Body of content*/
@@ -161,7 +156,7 @@
 
 #hero-Image h1 {
   margin-top: 50px;
-  padding-top: 100px;
+  padding-top: 280px;
   padding-left: 80px;
   letter-spacing: 0.02em;
   font-weight: 460;
@@ -187,7 +182,7 @@
 
 #hero-Image p {
   width: 400px;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 80px;
 }
 
