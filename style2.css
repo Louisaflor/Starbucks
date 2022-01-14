@@ -1,6 +1,7 @@
-body {
+* {
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0px;
+  
 }
 /* Navigation Bar */
 
@@ -8,13 +9,13 @@ body {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 0px;
-  padding-top: 30px;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
   top: 0;
   background-color: white;
-  width: 100%;
+  width: auto;
   position: sticky;
   top: 0;
 }
@@ -109,9 +110,9 @@ body {
   color: #006241;
 }
 
-#body {
+/* #body {
   padding-top: 250px;
-}
+} */
 
 /* bottom of nav Bar, header*/
 
@@ -131,7 +132,36 @@ body {
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  position: relative;
+  position: sticky;
   padding-left: 128px;
   padding-top: 17px;
 }
+
+/* Star Image */
+
+#hero-Image {
+    background: url("./images/xl-hero-desktop_star.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 800px;
+    background-color: #d4e8e1;
+    
+}
+
+/* Content Inside the star */
+
+#freeCoffee {
+  width: 100px;
+}
+#hero-Image h1 {
+  padding-top: 40px;
+  padding-left: 80px;
+  letter-spacing: 0.02em;
+  font-weight: 460;
+  width: 350px;
+  text-transform: uppercase;
+}
+
+
+
