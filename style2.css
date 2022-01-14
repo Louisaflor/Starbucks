@@ -148,13 +148,17 @@
     
 }
 
+/* Body of content*/
+
+
 /* Content Inside the star */
 
 #freeCoffee {
   width: 100px;
 }
 #hero-Image h1 {
-  padding-top: 40px;
+  margin-top: 50px;
+  padding-top: 100px;
   padding-left: 80px;
   letter-spacing: 0.02em;
   font-weight: 460;
