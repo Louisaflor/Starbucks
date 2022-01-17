@@ -74,6 +74,7 @@
 #butt2 {
   background-color: black;
   color: white;
+  margin-right: 15px;
 }
 
 #store a {
@@ -84,12 +85,13 @@
 /* Left side of Nav Bar*/
 
 #logoPic {
-  padding-right: 20px;
+  padding-right: 30px;
+  padding-left: 15px;
 }
 
 #nav li {
   float: left;
-  padding-left: 15px;
+  padding-left: 10px;
   font-size: 13px;
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -144,7 +146,7 @@
     background-repeat: no-repeat;
     height: 800px;
     background-color: #d4e8e1;
-  background-position: right 90% bottom 0%;
+   background-position: right 50% bottom 0%; 
    
 }
 
