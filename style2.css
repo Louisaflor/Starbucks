@@ -153,6 +153,7 @@
 /* Content Inside the star */
 
 #hero-Image h1 {
+  font-size: 35px;
   margin-top: 50px;
   padding-top: 280px;
   padding-left: 80px;
@@ -163,22 +164,32 @@
 }
 
 #hero-Image button {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   padding: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 20px;
   background-color: #01754a;
   color: white;
-  width: 100px;
+  width: 110px;
   margin-top: 35px;
   margin-left: 80px;
   border: #01754a;
 }
 
 #hero-Image p {
+  font-size: 18px;
+  letter-spacing: 0.02em;
   width: 400px;
   padding-top: 30px;
   padding-left: 80px;
+}
+
+/* a link tag for the star part of the text */
+
+#hero-Image a {
+  color: black;
 }
