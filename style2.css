@@ -193,3 +193,19 @@
 #hero-Image a {
   color: black;
 }
+
+/* First content Row, "Getting Started is easy portion*/
+
+#content-Row1 {
+  margin-top: 60px;
+  padding-top: 150px;
+  padding: 100px;
+  text-align: center;
+}
+
+/* First div */
+#firSecThir {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 80px;
+}
