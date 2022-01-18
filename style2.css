@@ -9,7 +9,7 @@
   flex-wrap: nowrap;
   margin-top: 0px;
   padding-top: 20px;
-  padding-bottom: 26px;
+  padding-bottom: 25px;
   padding-left: 40px;
   padding-right: 40px;
   top: 0;
@@ -197,15 +197,43 @@
 /* First content Row, "Getting Started is easy portion*/
 
 #content-Row1 {
-  margin-top: 60px;
+  margin-top: 40px;
   padding-top: 150px;
   padding: 100px;
   text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+#gettingStarted h2 {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding-bottom: 20px;
 }
 
 /* First div */
 #firSecThir {
   display: flex;
   flex-wrap: nowrap;
-  padding-top: 80px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+/*adjusting the sub Row 1 */
+
+.sub-Row1 {
+  line-height: 1.5;
+  width: 80%;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.sub-Row1 p {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/*adjusting the number image*/
+
+.image {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 20px;
 }
