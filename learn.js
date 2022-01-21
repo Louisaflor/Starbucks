@@ -12,10 +12,14 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
   }
 
+  
+
   document.getElementById("25").onclick = function() {openCity(Event, 'tab25')}
   document.getElementById("50").onclick = function() {openCity(Event, 'tab50')}
   document.getElementById("150").onclick = function() {openCity(Event, 'tab150')}
   document.getElementById("200").onclick = function() {openCity(Event, 'tab200')}
   document.getElementById("400").onclick = function() {openCity(Event, 'tab400')}
+
+  document.getElementById("25").click();
 
  
