@@ -1,0 +1,21 @@
+/* green portion of nav Bar, header*/
+
+#fixed-Header {
+  position: fixed;
+  margin: 0px;
+  width: 100%;
+  background-color: #1e3932;
+  color: white;
+  height: 50px;
+}
+
+#fixed-Header p {
+  font-size: 13px;
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: sticky;
+  padding-left: 128px;
+  padding-top: 17px;
+}

@@ -1,0 +1,116 @@
+* {
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0px;
+}
+/* Navigation Bar */
+
+#header {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  top: 0;
+  background-color: white;
+  width: auto;
+  position: sticky;
+  top: 0;
+}
+
+/* Right side of Nav Bar*/
+
+#top {
+  margin-top: 0px;
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#store {
+  float: right;
+}
+
+#findStore {
+  width: 100%;
+
+  float: right;
+  position: relative;
+  padding-right: 0px;
+}
+
+#findStore a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #000000de;
+}
+
+#navigation {
+  width: 800px;
+}
+
+#nav {
+  list-style: none;
+  overflow: hidden; /* i dont really know why we use this*/
+  margin: 0px;
+  padding: 0px;
+  padding-top: 15px;
+  top: 0;
+}
+
+.buttons {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#butt2 {
+  background-color: black;
+  color: white;
+  margin-right: 15px;
+}
+
+#store a {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+/* Left side of Nav Bar*/
+
+#logoPic {
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+#nav li {
+  float: left;
+  padding-left: 10px;
+  font-size: 13px;
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+#nav a {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#nav a:hover {
+  color: #006241;
+}
+
+/* #body {
+  padding-top: 250px;
+} */

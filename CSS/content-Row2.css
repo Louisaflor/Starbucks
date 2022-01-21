@@ -1,0 +1,27 @@
+/*Content-Row2 tabs*/
+
+/* I have to hide all the content first*/
+
+.tabContent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#tabs button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/*Content Row three */
+
+#content-Row3 {
+  padding-top: 100px;
+}
