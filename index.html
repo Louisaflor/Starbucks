@@ -4,7 +4,7 @@
     <title>Starbucks</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style2.css">
-    <script src="learn.js"></script>
+    
   </head>
   
   <body>
@@ -110,42 +110,42 @@
      <div id="content-Row2">
        <h2>Get your favorite for free</h2>
        <div id="tabs">
-         <button class="tabLinks">25★</button>
-         <button class="tabLinks">50★</button>
-         <button class="tabLinks">150★</button>
-         <button class="tabLinks">200★</button>
-         <button class="tabLinks">400★</button> 
+         <button class="tabLinks" onclick="openCity(event, 'tab25')" id="25">25★</button>
+         <button class="tabLinks" id="50">50★</button>
+         <button class="tabLinks" id="150">150★</button>
+         <button class="tabLinks" id="200">200★</button>
+         <button class="tabLinks" id="400">400★</button> 
        </div>
        
-       <div id="tab25" class="tab-Content">
+       <div id="tab25" class="tabContent">
          <img class="favFreeImg" src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/025.png">
          <h4>Customize your drink </h4>
          <p>Make your drink just right with an extra espresso shot,
          dairy substitute or dash of your favorite syrup.</p>
        </div>
        
-       <div id="tab50" class="tab-Content">
+       <div id="tab50" class="tabContent">
          <img class="favFreeImg" src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/050.png">
          <h4>Brewed hot coffee, bakery item or hot tea </h4>
          <p>Pair coffee cake or an almond croissant with your fresh
            cup of hot brew. </p>
        </div> 
        
-        <div id="tab150" class="tab-Content">
+        <div id="tab150" class="tabContent">
           <img class="favFreeImg" src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/150.png">
          <h4>Handcrafted drink, hot breakfast or parfait </h4>
          <p>Have a really good morning with a breakfast sandwich, oatmeal
            or your favorite drink. </p>
        </div> 
        
-       <div id="tab200" class="tab-Content">
+       <div id="tab200" class="tabContent">
          <img class="favFreeImg" src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/200.png">
          <h4>Salad, sandwich or protein box </h4>
          <p>Nourish your day with a heart chipotle Chicken Wrap 
            or Eggs & Cheese Protein Box. </p>
        </div> 
        
-       <div id="tab400" class="tab-Content">
+       <div id="tab400" class="tabContent">
          <img class="favFreeImg" src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/400.png">
          <h4>Select merchandise or at-home coffee </h4>
          <p>Take home a signature cup, a bag of coffee or your choice
@@ -494,6 +494,7 @@
         
      
      </main> 
+     <script src="learn.js"></script>
   </body>
   </html>
     
