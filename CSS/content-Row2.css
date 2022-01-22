@@ -20,19 +20,7 @@
   align-items: center;
 }
 
-/* I have to hide all the content first*/
-
-.tabContent {
-  display: none;
-  padding: 6px 12px;
-
-  border-top: none;
-}
-
-/* making the images in tabContent smaller*/
-
-.favFreeImg {
-}
+/*Button are next to each other*/
 
 #tabs button {
   background-color: inherit;
@@ -43,4 +31,24 @@
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+}
+
+/* I have to hide all the content first*/
+
+.tabContent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+/* making the images in tabContent smaller*/
+
+.favFreeImg {
+  height: 200px;
+  width: 400px;
+}
+
+/*flexbox the tabContent*/
+.tabFlex {
+  display: flex;
 }
