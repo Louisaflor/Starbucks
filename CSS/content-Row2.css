@@ -25,8 +25,13 @@
 .tabContent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+
   border-top: none;
+}
+
+/* making the images in tabContent smaller*/
+
+.favFreeImg {
 }
 
 #tabs button {
@@ -38,10 +43,4 @@
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
-}
-
-/*Content Row three */
-
-#content-Row3 {
-  padding-top: 100px;
 }
