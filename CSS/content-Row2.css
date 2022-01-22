@@ -30,15 +30,17 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* I have to hide all the content first*/
 
 .tabContent {
   display: none;
-  padding: 6px 12px;
+  padding-top: 30px;
+  padding-bottom: 45px;
   border-top: none;
+  background-color: rgb(212 232 225);
 }
 
 /* making the images in tabContent smaller*/
@@ -46,9 +48,25 @@
 .favFreeImg {
   height: 200px;
   width: 400px;
+  padding-left: 350px;
+  padding-right: 15px;
 }
 
 /*flexbox the tabContent*/
 .tabFlex {
   display: flex;
+  align-items: center;
+}
+
+/*making the subTab width smaller */
+.subTab {
+  font-size: 1.1em;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 350px;
+}
+
+.subTab h4 {
+  font-size: 1.5em;
+  font-weight: 500;
 }
