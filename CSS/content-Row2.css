@@ -1,5 +1,25 @@
 /*Content-Row2 tabs*/
 
+/*need to center the title and the buttons*/
+
+#content-Row2 {
+  text-align: center;
+}
+
+#content-Row2 h1 {
+  background-color: rgb(240, 248, 246);
+  font-weight: 500;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#tabs {
+  background-color: rgb(240, 248, 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* I have to hide all the content first*/
 
 .tabContent {
