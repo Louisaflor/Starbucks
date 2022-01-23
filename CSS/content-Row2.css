@@ -31,6 +31,16 @@
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+/*Changing the little star in the button 
+small and change color*/
+
+.star {
+  font-size: 13px;
+  color: rgb(203 162 87);
 }
 
 /* I have to hide all the content first*/
@@ -56,6 +66,27 @@
 .tabFlex {
   display: flex;
   align-items: center;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*making the subTab width smaller */
