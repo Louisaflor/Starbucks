@@ -5,12 +5,13 @@
   margin: 0px;
   width: 100%;
   background-color: #1e3932;
-  color: white;
+
   height: 50px;
 }
 
 #fixed-Header p {
   font-size: 13px;
+  color: white;
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 600;
   letter-spacing: 0.2em;
